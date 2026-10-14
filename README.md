@@ -2,7 +2,7 @@
 
 一个用 **C++17 + Vulkan** 写成的跨平台 UI 框架。
 
-estarx_vulkan 是一套小型跨平台 C++17 UI 框架，由 Vulkan 渲染，API 全面参照 Flutter 的保留式声明模型——但 **全部是 C++**：没有 view 句柄、没有 C 回调、没有 user_data 指针，也没有任何公开 C ABI 层。本指南按「语言特性 → 渲染 → 线程 → UI 框架 → 平台混合」的路线，带你逐层读透这个项目。
+estarx_vulkan 是一套小型跨平台 C++17 UI 框架，由 Vulkan 渲染，API 全面参照 Flutter 的保留式声明模型——但 **全部用 C++ 实现**：没有 view 句柄、没有 C 回调、没有 user_data 指针，也没有任何公开 C ABI 层。本指南按「语言特性 → 渲染 → 线程 → UI 框架 → 平台混合」的路线，带你逐层读透这个项目。
 
 `C++17` · `Vulkan` · `Flutter 式三棵树` · `Android / iOS / HarmonyOS` · `自绘 SDF 图形` · `CSP 行情实战`
 
