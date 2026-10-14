@@ -17,5 +17,6 @@ estarx_vulkan 是一套小型跨平台 C++17 UI 框架，由 Vulkan 渲染，API
 - [06 · 滑动与手势：竞技场、ScrollView、拖拽](chapters/06-滑动与手势.md)
 - [07 · 动画：逐帧 tick 驱动的世界](chapters/07-动画与转场.md)
 - [08 · WebView 与浮层：跨平台混合合成](chapters/08-WebView与浮层.md)
+- [09 · 实战：从行情数据到首页布局](chapters/09-实战篇.md)
 
 > 本站内容为 estarx_vulkan 项目 `文档/` 目录的学习性整理，深入细节请对照源码与原始文档。
