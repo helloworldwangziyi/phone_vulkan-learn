@@ -1,13 +1,29 @@
 <!doctype html>
-<html lang="zh-CN" class="dark">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>estarx_vulkan 学习指南</title>
-    <script type="module" crossorigin src="./assets/index-DESk28u2.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BFUo405l.css">
+    <style>
+      /* 仅保留电子书所需的最小样式 */
+      :root { --sidebar-width: 240px; }
+      body { margin: 0; }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="app">加载中……</div>
+    <script>
+      window.$docsify = {
+        name: "estarx_vulkan 学习指南",
+        repo: "https://github.com/helloworldwangziyi/phone_vulkan-learn",
+        loadSidebar: true,
+        subMaxLevel: 2,
+        auto2top: true,
+        search: "auto",
+        relativePath: true,
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
   </body>
 </html>
